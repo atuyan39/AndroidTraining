@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">AndroidTraining</string>
-<!-- TrainingTextView-->
+    <!-- TrainingTextView-->
     <string name="see_you">See You!!</string>
-
+    <!-- TrainingListView-->
+    <string-array name="week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
 </resources>

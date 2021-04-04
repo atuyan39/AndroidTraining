@@ -15,7 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     private final static String[] trainingList = {
             "TextView",
-            "Button"
+            "Button",
+            "ListView"
     };
 
     @Override
@@ -45,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "Button":
                 intent = new Intent(this, TrainingButtonActivity.class);
+                break;
+            case "ListView":
+                intent = new Intent(this, TrainingListViewActivity.class);
+                break;
+            default:
+                Log.d("asdf", "There is no training activity!");
+                return;
         }
         if (intent != null) startActivity(intent);
     }
