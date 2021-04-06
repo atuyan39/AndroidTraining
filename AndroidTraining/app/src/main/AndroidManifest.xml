@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TrainingButtonActivity"></activity>
-        <activity android:name=".TrainingListViewActivity"></activity>
-        <activity android:name=".TrainingTextViewActivity"></activity>
+        <activity android:name=".TrainingButtonActivity" />
+        <activity android:name=".TrainingListViewActivity" />
+        <activity android:name=".TrainingTextViewActivity" />
+        <activity android:name=".TrainingEditTextActivity" />
     </application>
 
 </manifest>

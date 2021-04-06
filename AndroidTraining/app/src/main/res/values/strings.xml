@@ -12,4 +12,9 @@
         <item>Saturday</item>
         <item>Sunday</item>
     </string-array>
+    <!-- EditText 1 -->
+    <string name="edit_text_1_text_view">Display text here</string>
+    <string name="edit_text_1_button">Display</string>
+    <string name="edit_text_1_edit_text_hint">Please input text</string>
+
 </resources>

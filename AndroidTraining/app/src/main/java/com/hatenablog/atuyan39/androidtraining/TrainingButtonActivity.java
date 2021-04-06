@@ -14,7 +14,7 @@ public class TrainingButtonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_training_button);
 
-        Button button = findViewById(R.id.button);
+        Button button = findViewById(R.id.edit_text_1_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

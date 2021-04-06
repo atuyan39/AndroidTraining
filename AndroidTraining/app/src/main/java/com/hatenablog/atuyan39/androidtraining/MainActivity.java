@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private final static String[] trainingList = {
             "TextView",
             "Button",
-            "ListView"
+            "ListView",
+            "EditText"
     };
 
     @Override
@@ -50,10 +51,13 @@ public class MainActivity extends AppCompatActivity {
             case "ListView":
                 intent = new Intent(this, TrainingListViewActivity.class);
                 break;
+            case "EditText":
+                intent = new Intent(this, TrainingEditTextActivity.class);
+                break;
             default:
                 Log.d("asdf", "There is no training activity!");
                 return;
         }
-        if (intent != null) startActivity(intent);
+        startActivity(intent);
     }
 }
