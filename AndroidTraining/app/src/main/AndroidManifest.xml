@@ -20,6 +20,7 @@
         <activity android:name=".TrainingListViewActivity" />
         <activity android:name=".TrainingTextViewActivity" />
         <activity android:name=".TrainingEditTextActivity" />
+        <activity android:name=".TrainingSharedPreferenceActivity" />
     </application>
 
 </manifest>

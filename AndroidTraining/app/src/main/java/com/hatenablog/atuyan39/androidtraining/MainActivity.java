@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
             "TextView",
             "Button",
             "ListView",
-            "EditText"
+            "EditText",
+            "SharedPreference"
     };
 
     @Override
@@ -29,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
         adapter.addAll(trainingList);
         listView.setOnItemClickListener((parent, view, position, id) -> {
-            Log.d("asdf", "position:" + position + ", id:" + id);
             String text = (String) ((TextView) view).getText();
             if (text != null) {
                 Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
@@ -54,8 +54,11 @@ public class MainActivity extends AppCompatActivity {
             case "EditText":
                 intent = new Intent(this, TrainingEditTextActivity.class);
                 break;
+            case "SharedPreference":
+                intent = new Intent(this, TrainingSharedPreferenceActivity.class);
+                break;
             default:
-                Log.d("asdf", "There is no training activity!");
+                Log.d(getPackageName(), "There is no training activity!");
                 return;
         }
         startActivity(intent);

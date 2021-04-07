@@ -16,5 +16,8 @@
     <string name="edit_text_1_text_view">Display text here</string>
     <string name="edit_text_1_button">Display</string>
     <string name="edit_text_1_edit_text_hint">Please input text</string>
-
+    <!-- SharedPreference 1 -->
+    <string name="sp1_save">save</string>
+    <string name="sp1_display">display</string>
+    <string name="sp1_edit_text_hint">Please input text</string>
 </resources>
