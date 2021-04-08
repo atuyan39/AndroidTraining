@@ -20,4 +20,8 @@
     <string name="sp1_save">save</string>
     <string name="sp1_display">display</string>
     <string name="sp1_edit_text_hint">Please input text</string>
+    <!-- CheckBox 1 -->
+    <string name="cb1_text">Click check box</string>
+    <string name="cb1_check_on">チェックが付きました</string>
+    <string name="cb1_check_off">チェックが消えました</string>
 </resources>

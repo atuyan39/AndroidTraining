@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
             "Button",
             "ListView",
             "EditText",
-            "SharedPreference"
+            "SharedPreference",
+            "CheckBox"
     };
 
     @Override
@@ -56,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "SharedPreference":
                 intent = new Intent(this, TrainingSharedPreferenceActivity.class);
+                break;
+            case "CheckBox":
+                intent = new Intent(this, TrainingCheckBoxActivity.class);
                 break;
             default:
                 Log.d(getPackageName(), "There is no training activity!");
