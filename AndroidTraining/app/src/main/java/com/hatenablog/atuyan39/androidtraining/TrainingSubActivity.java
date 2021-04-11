@@ -4,26 +4,23 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 
-public class TrainingActivity extends AppCompatActivity {
-    private static final String TAG = "LifeCycle";
+public class TrainingSubActivity extends AppCompatActivity {
+    private static final String TAG = "LifeCycle_Sub";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d(TAG, "onCreate");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_training);
+        setContentView(R.layout.activity_training_sub);
 
-        Button button = findViewById(R.id.activity_2_button);
-        button.setOnClickListener((v -> {
-            // アクティビティを起動する
-            Intent intent = new Intent(this, TrainingSubActivity.class);
-            startActivity(intent);
-        }));
+        Button button = findViewById(R.id.activity_2_button_sub);
+        button.setOnClickListener(v -> {
+            // このActivityを終了させる
+            finish();
+        });
     }
 
     @Override
@@ -78,6 +75,7 @@ public class TrainingActivity extends AppCompatActivity {
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         Log.d(TAG, "onSaveInstanceState");
         super.onSaveInstanceState(outState);
+        outState.putString("A", "put bundle");
     }
 
     @Override

@@ -24,4 +24,10 @@
     <string name="cb1_text">Click check box</string>
     <string name="cb1_check_on">チェックが付きました</string>
     <string name="cb1_check_off">チェックが消えました</string>
+    <!-- Activity 1 -->
+    <!-- Activity 2 -->
+    <string name="activity_2_text">メイン画面です</string>
+    <string name="activity_2_button">Sub画面へ</string>
+    <string name="activity_2_text_sub">サブ画面です</string>
+    <string name="activity_2_button_sub">Main画面へ</string>
 </resources>

@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTraining">
-        <activity android:name=".TrainingActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +23,8 @@
         <activity android:name=".TrainingSharedPreferenceActivity" />
         <activity android:name=".TrainingCheckBoxActivity" />
         <activity android:name=".TrainingSwitchActivity" />
+        <activity android:name=".TrainingActivity" />
+        <activity android:name=".TrainingSubActivity" />
     </application>
 
 </manifest>
