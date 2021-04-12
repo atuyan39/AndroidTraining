@@ -25,6 +25,7 @@
         <activity android:name=".TrainingSwitchActivity" />
         <activity android:name=".TrainingActivity" />
         <activity android:name=".TrainingSubActivity" />
+        <activity android:name=".TrainingImageViewActivity" />
     </application>
 
 </manifest>
