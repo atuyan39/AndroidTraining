@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
             "CheckBox",
             "Switch",
             "Activity",
-            "ImageView"
+            "ImageView",
+            "Thread"
     };
 
     @Override
@@ -72,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "ImageView" :
                 intent = new Intent(this, TrainingImageViewActivity.class);
+                break;
+            case "Thread" :
+                intent = new Intent(this, TrainingThreadActivity.class);
                 break;
             default:
                 Log.d(getPackageName(), "There is no training activity!");
