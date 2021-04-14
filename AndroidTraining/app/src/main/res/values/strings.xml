@@ -30,4 +30,7 @@
     <string name="activity_2_button">Sub画面へ</string>
     <string name="activity_2_text_sub">サブ画面です</string>
     <string name="activity_2_button_sub">Main画面へ</string>
+    <!-- Dialog 1 -->
+    <string name="dialog_1_title">Dialog title</string>
+    <string name="dialog_1_message">Dialog text</string>
 </resources>
