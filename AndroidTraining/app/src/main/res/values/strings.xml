@@ -33,4 +33,6 @@
     <!-- Dialog 1 -->
     <string name="dialog_1_title">Dialog title</string>
     <string name="dialog_1_message">Dialog text</string>
+    <string name="dialog_1_alert_dialog">AlertDialog</string>
+    <string name="dialog_2_date_picker_dialog">DateDialog</string>
 </resources>
