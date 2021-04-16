@@ -4,9 +4,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 public class TrainingDialogActivity extends AppCompatActivity {
@@ -21,6 +23,9 @@ public class TrainingDialogActivity extends AppCompatActivity {
 
         Button datePickerButton = findViewById(R.id.dialog_2_button_date);
         datePickerButton.setOnClickListener(v -> showTrainingDatePickerDialog());
+
+        Button timePickerButton = findViewById(R.id.dialog_3_button_time);
+        timePickerButton.setOnClickListener(v -> showTrainingTimePickerDialog());
     }
 
     private void showTrainingDialog() {
@@ -43,6 +48,18 @@ public class TrainingDialogActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
+        dialog.show();
+    }
+
+    private void showTrainingTimePickerDialog() {
+        TimePickerDialog dialog = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
+            @Override
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                // OKボタンが押下された際に通知が来る
+                String message = hourOfDay + "時" + minute + "分";
+                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+            }
+        }, 0, 0, true);
         dialog.show();
     }
 }
