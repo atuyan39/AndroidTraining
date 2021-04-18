@@ -38,4 +38,15 @@
     <string name="dialog_2_date_picker_dialog">Date</string>
     <!-- Dialog 3 -->
     <string name="dialog_3_time_picker_dialog">Time</string>
+    <!-- Spinner 1 -->
+    <string name="spinner_1_text">TextView</string>
+    <string-array name="spinner_1_array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
 </resources>
