@@ -29,6 +29,7 @@
         <activity android:name=".TrainingThreadActivity" />
         <activity android:name=".TrainingDialogActivity" />
         <activity android:name=".TrainingSpinnerActivity" />
+        <activity android:name=".TrainingRadioActivity" />
     </application>
 
 </manifest>

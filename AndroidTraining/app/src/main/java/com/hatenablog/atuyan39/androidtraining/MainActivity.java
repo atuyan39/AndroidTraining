@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             "ImageView",
             "Thread",
             "Dialog",
-            "Spinner"
+            "Spinner",
+            "Radio"
     };
 
     @Override
@@ -84,6 +85,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "Spinner":
                 intent = new Intent(this, TrainingSpinnerActivity.class);
+                break;
+            case "Radio":
+                intent = new Intent(this, TrainingRadioActivity.class);
                 break;
             default:
                 Log.d(getPackageName(), "There is no training activity!");

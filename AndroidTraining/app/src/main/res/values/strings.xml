@@ -49,4 +49,9 @@
         <item>Friday</item>
         <item>Saturday</item>
     </string-array>
+    <!-- Radio 1-->
+    <string name="radio_1_blood_type_a">A型</string>
+    <string name="radio_1_blood_type_b">B型</string>
+    <string name="radio_1_blood_type_o">O型</string>
+    <string name="radio_1_blood_type_ab">AB型</string>
 </resources>
