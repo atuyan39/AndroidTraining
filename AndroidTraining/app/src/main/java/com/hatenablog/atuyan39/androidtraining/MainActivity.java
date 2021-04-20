@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
             "Thread",
             "Dialog",
             "Spinner",
-            "Radio"
+            "Radio",
+            "ViewModel"
     };
 
     @Override
@@ -88,6 +89,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "Radio":
                 intent = new Intent(this, TrainingRadioActivity.class);
+                break;
+            case "ViewModel":
+                intent = new Intent(this, TrainingViewModelActivity.class);
                 break;
             default:
                 Log.d(getPackageName(), "There is no training activity!");

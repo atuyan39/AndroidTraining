@@ -30,6 +30,7 @@
         <activity android:name=".TrainingDialogActivity" />
         <activity android:name=".TrainingSpinnerActivity" />
         <activity android:name=".TrainingRadioActivity" />
+        <activity android:name=".TrainingViewModelActivity" />
     </application>
 
 </manifest>

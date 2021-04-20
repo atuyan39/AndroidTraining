@@ -49,9 +49,11 @@
         <item>Friday</item>
         <item>Saturday</item>
     </string-array>
-    <!-- Radio 1-->
+    <!-- Radio 1 -->
     <string name="radio_1_blood_type_a">A型</string>
     <string name="radio_1_blood_type_b">B型</string>
     <string name="radio_1_blood_type_o">O型</string>
     <string name="radio_1_blood_type_ab">AB型</string>
+    <!-- ViewModel 1 -->
+    <string name="vm1_button_text">Start Count UP!</string>
 </resources>
