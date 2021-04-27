@@ -31,6 +31,7 @@
         <activity android:name=".TrainingSpinnerActivity" />
         <activity android:name=".TrainingRadioActivity" />
         <activity android:name=".TrainingViewModelActivity" />
+        <activity android:name=".TrainingListViewActivity2" />
     </application>
 
 </manifest>

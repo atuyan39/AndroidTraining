@@ -56,4 +56,6 @@
     <string name="radio_1_blood_type_ab">AB型</string>
     <!-- ViewModel 1 -->
     <string name="vm1_button_text">Start Count UP!</string>
+    <!-- ListView 2 -->
+    <string name="list_item_image_description">Image</string>
 </resources>
